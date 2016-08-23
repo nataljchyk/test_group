@@ -6,8 +6,10 @@
 # else:
 #     print('This is not pangram')
 
-alphabet = 'abcdefghijklmnopqrstuvwxyz'
+from string import ascii_lowercase as az
+# alphabet = 'abcdefghijklmnopqrstuvwxyz'
 def check(text):
-    return set(text.lower()).issuperset(set(alphabet))
+    return set(text.lower()).issuperset(set(az))
 #  function issupperset - return always true/false
+
 print(check('abc'))
