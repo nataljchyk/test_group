@@ -15,3 +15,4 @@ def check(text):
 print(check('abc') == False)
 print(check('abcdefghijklmnopqrstuvwxyz') == True)
 print(check('ABCDEFGHIJKLMNOPQRSTUVWXYZ') == True)
+print(check('Quick brown fox jumps over the lazy dog'))
