@@ -12,4 +12,5 @@ def check(text):
     return set(text.lower()).issuperset(set(az))
 #  function issupperset - return always true/false
 
-print(check('abc'))
+print(check('abc') == False)
+print(check('abcdefghijklmnopqrstuvwxyz') == True)
