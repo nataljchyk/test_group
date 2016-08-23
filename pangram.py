@@ -10,3 +10,4 @@ alphabet = 'abcdefghijklmnopqrstuvwxyz'
 def check(text):
     return set(text.lower()).issuperset(set(alphabet))
 #  function issupperset - return always true/false
+print(check('abc'))
